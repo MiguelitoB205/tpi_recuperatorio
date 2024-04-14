@@ -1,0 +1,57 @@
+#root {
+  
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-align: initial;
+}
+
+.card {
+  background-color: rgb(7, 7, 7);
+  margin:  20px;
+  padding: 50px;
+  border-radius: 30px;
+}
+.card:hover{
+  padding: 80px;
+  margin: 15px;
+}
+.conjunto_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.contenedor{
+  background-color: rgb(11, 12, 12);
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+h1{
+  color:rgb(51, 155, 51);
+  text-align: center;
+}
+h2{
+  color: rgb(231, 7, 7);
+}
+.title{
+  color:  rgb(61, 238, 61);
+  font-size: 1rem;
+
+}
+.caja-a{
+  display: flex;
+  flex-direction: row;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+}
