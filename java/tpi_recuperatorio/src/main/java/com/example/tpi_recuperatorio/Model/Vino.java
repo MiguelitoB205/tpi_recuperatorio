@@ -1,15 +1,26 @@
 package com.example.tpi_recuperatorio.Model;
 
-public class Alimento {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+
+@NoArgsConstructor
+@Entity
+@Table(name = "vinos")
+public class Vino {
+
     private Long id;
     private String nombre;
-    private String imagen;
     private Double Precio;
 
-    public Alimento(Long id, String nombre, String imagen, Double precio) {
+    public Vino(Long id, String nombre, Double precio) {
         this.id = id;
         this.nombre = nombre;
-        this.imagen = imagen;
         Precio = precio;
     }
 
@@ -29,14 +40,6 @@ public class Alimento {
         this.nombre = nombre;
     }
 
-    public String getImagen() {
-        return imagen;
-    }
-
-    public void setImagen(String imagen) {
-        this.imagen = imagen;
-    }
-
     public Double getPrecio() {
         return Precio;
     }
@@ -45,3 +48,4 @@ public class Alimento {
         Precio = precio;
     }
 }
+

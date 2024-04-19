@@ -1,4 +1,3 @@
-import { faAws } from '@fortawesome/free-brands-svg-icons'
 import { faBowlFood } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
@@ -11,6 +10,7 @@ const Header = () => {
       <h1 className='title'>Bogotá <strong style={{color: 'aliceblue'}}>Gourmet</strong> </h1>
       </div>
       <div className="nav">
+      
       </div>
      
     </div>
