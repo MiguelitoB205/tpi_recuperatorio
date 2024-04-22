@@ -7,51 +7,36 @@
   text-align: center;
 }
 
-.card {
-  background-color: rgb(7, 7, 7);
-  margin:  20px;
-  padding: 50px;
-  border-radius: 30px;
-}
-.card:hover{
-  padding: 80px;
-  margin: 15px;
-}
-.conjunto_cards{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 .read-the-docs {
   color: #888;
 }
 .contenedor{
-  background-color: rgb(11, 12, 12);
-  padding: 10px 10px;
+  background-color: rgb(55, 56, 56);
+  padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 
 
 }
-h1{
-  color:rgb(51, 155, 51);
-  text-align: center;
-}
-h2{
-  color: rgb(231, 7, 7);
-}
+
+
 .title{
-  color:  rgb(61, 238, 61);
-  font-size: 1rem;
+  color:  rgb(14, 37, 14);
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 20px 20px 0;
+
 
 }
 .caja-a{
   display: flex;
   flex-direction: row;
 }
-.nav{
-  display: flex;
-  flex-direction: column;
+
+.listado{
+  background-color: rgb(104, 100, 100);
+  color: white;
+  padding:40px;
 }
